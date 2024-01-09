@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  div {
+    display: inline-block;
+  }
+}
+
+@layer utilities {
+  .hide-sb::-webkit-scrollbar {
+    display: none;
+  }
+  .hide-sb {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .blue {
+    background: blue;
+  }
+}
+
+@layer components {
+  div {
+    @apply rounded-sm bg-red-500;
+  }
+}
