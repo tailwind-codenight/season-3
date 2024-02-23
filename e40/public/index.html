@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind CLI</title>
+    <link rel="stylesheet" href="./dist/styles/style.css" />
+    <link rel="stylesheet" href="./dist/styles/fonts.css" />
+  </head>
+  <body class="font-vazirMatn">
+    <ul class="flex gap-4">
+      <li class="h-20 w-20 bg-red-500"></li>
+      <li class="collapse h-20 w-20 bg-red-500"></li>
+      <li class="h-20 w-20 bg-red-500"></li>
+    </ul>
+
+    <table>
+      <tr>
+        <td>ستون ۱ از ردیف ۱</td>
+        <td>ستون ۲ از ردیف ۱</td>
+        <td>ستون ۳ از ردیف ۱</td>
+      </tr>
+      <tr class="collapse">
+        <td>ستون ۱ از ردیف ۲</td>
+        <td>ستون ۲ از ردیف ۲</td>
+        <td>ستون ۳ از ردیف ۲</td>
+      </tr>
+      <tr>
+        <td>ستون ۱ از ردیف ۳</td>
+        <td class="collapse">ستون ۲ از ردیف ۳</td>
+        <td>ستون ۳ از ردیف ۳</td>
+      </tr>
+    </table>
+  </body>
+</html>
